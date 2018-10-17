@@ -1,5 +1,4 @@
-/**
- * @file
- * Subtheme specific CSS.
- */
-
+body {
+  background: #000;
+  font-size: 100%;
+}

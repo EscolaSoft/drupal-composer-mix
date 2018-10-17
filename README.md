@@ -15,8 +15,6 @@ DB_NAME: drupal
 DB_DRIVER: mysql
 ```
 
-TODO add npm and empty boilerplate 
-
 ### composer 
 
 `docker-compose exec php composer ...`
@@ -25,6 +23,15 @@ TODO add npm and empty boilerplate
 
 `docker-compose exec php drush ...`
 
-## Deploying 
+## Developing 
+
+install npm dependencies and run watch script 
+
+1. `npm i`
+2. `npm run watch` this lanuches browser sync and watches all the css and js changes 
+
+## Deploying
+
+1. `npm run prod` compress css & js 
 
 Drush export import 

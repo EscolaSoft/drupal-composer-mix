@@ -1,5 +1,5 @@
 {
-  "name": "drupal-composer-docker4drupal",
+  "name": "drupal-composer-mix",
   "version": "1.0.0",
   "description": "Qunabu Drupal Bootstrap 4 Boilerplate",
   "main": "index.js",
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/drupal-up/drupal-composer-docker4drupal#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "^2.0.1",
     "laravel-mix": "^2.1.14"
   }
 }

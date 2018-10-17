@@ -6,8 +6,8 @@ description: 'Basic structure for a Qunabu Bootstrap Barrio SubTheme.'
 base theme: bootstrap_barrio
 
 libraries:
-  - bootstrap_barrio_subtheme/bootstrap_cdn
-  - bootstrap_barrio_subtheme/global-styling
+  - qunabu/bootstrap_cdn
+  - qunabu/global-styling
 
 regions:
   top_header: 'Top Header'
