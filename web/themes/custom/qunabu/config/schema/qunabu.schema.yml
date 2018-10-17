@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Bootstrap Barrio Subtheme.
+
+qunabu.settings:
+  type: theme_settings
+  label: 'Qunabu Bootstrap Barrio Subtheme settings'
